@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="all" >
+        <item android:title="Cadastros">
+            <menu>
+                <item
+                    android:id="@+id/icliente"
+                    android:title="Clientes" />
+
+                <item
+                    android:id="@+id/ifornecedor"
+                    android:title="Fornecedores" />
+
+                <item
+                    android:id="@+id/icategoria"
+                    android:title="Categorias" />
+
+                <item
+                    android:id="@+id/iproduto"
+                    android:title="Produtos" />
+            </menu>
+        </item>
+
+        <item android:title="Movimentações">
+            <menu>
+
+                <item
+                    android:id="@+id/icompras"
+                    android:title="Compras" />
+
+                <item
+                    android:id="@+id/ivenda"
+                    android:title="Vendas" />
+
+            </menu>
+        </item>
+
+        <item android:title="Consultas">
+            <menu>
+
+                <item
+                    android:id="@+id/ivisita"
+                    android:title="Visitas" />
+
+                <item
+                    android:id="@+id/icaixa"
+                    android:title="Caixa" />
+
+                <item
+                    android:id="@+id/icpagar"
+                    android:title="Contas à pagar" />
+
+                <item
+                    android:id="@+id/icreceber"
+                    android:title="Contas à receber" />
+
+            </menu>
+        </item>
+
+    </group>
+
+    <item android:title="Sistema">
+        <menu>
+            <item
+                android:id="@+id/isair"
+                android:title="Sair" />
+        </menu>
+    </item>
+
+</menu>
